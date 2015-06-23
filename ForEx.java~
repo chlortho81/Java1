@@ -7,7 +7,7 @@ class ForEx {
 		
         double i;
 
-		for (i=0.0;i<5.0;i = i + .5) 
+		for (i=0.0;i<5.0;i + .5) 
             
 			System.out.println(i);
 
