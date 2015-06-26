@@ -1,17 +1,20 @@
-// Aaron Whittle ForEx.java
+// call this program ForEx.java
 
 class ForEx {
 
-	public static void main(String[] args) {
-		
-		int i;
+public static void main(String args[]) {
 
-		for (i=0;i<=5;++i)
-			System.out.println(i);
+double i;
 
-		System.out.println("Now let's print it backwards");
+for (i=0.0; i < 5.0;i += .5)
+        System.out.println(i);
 
-		for (i=5;i>=0;--i)
-			System.out.println(i);
-	}
-}
+System.out.println("now let's print it backwards ");
+
+for (i=5.0;i >= -5.0;i -= .5)
+        System.out.println(i);
+
+}//main
+
+}//ForEx
+

@@ -1,20 +1,34 @@
-//aaron whittle/a IF statement example
-class IFEx {
+// Jack Haley
+// IfEx.java
 
-	public static void main(String args[]) {
 
-		int a, b;
+class IfEx {
 
-		a=20;
+  public static void main(String args[]) {
 
-		b =50;
+    int a, b;
 
-		if(a == b) System.out.println("a equals b");
+    a = 50;
 
-		if(a != b) System.out.println("a is not equal to b");
+    b = 60;
 
-		if(a >= b) System.out.println("a is now greater than or equal to b");
+    if(a == b) System.out.println ( a + " equals " + b);
+    
+    if(a != b) System.out.println("a is not equal to b");
 
-		if(a <= b) System.out.println("a is now less than or equal to b");
-	}
-}
+    if(a >= b) System.out.println(a + " is now greater than or equal to " +b);
+
+    if(a <= b) System.out.println("a is less than or equal to b");
+  
+  } //main
+
+}//IfEx
+
+
+
+
+
+
+
+
+

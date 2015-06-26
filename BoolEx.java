@@ -1,25 +1,29 @@
-// Aaron Whittle's Boolean Example
+// save this as BoolEx.java
 
 class BoolEx {
 
-	public static void main(String[] args) {
-		
-		Boolean flag; //this is how you declare a boolean variable
+  public static void main(String args[]) {
 
-		flag = true; // this is how to assign boolean
+    boolean flag;// this is how to declare a boolean variable
 
-		System.out.println("flag is " + flag);
+    flag = true;// this is how to assign a boolean
 
-		flag = false;
-		System.out.println("flag is " + flag);
+    System.out.println("flag is " + flag);
 
-		if(flag) System.out.println("flag is true.");
+    flag = false;
+    System.out.println("flag is " + flag);
 
-		flag = false;
-		if(!flag) System.out.println("flag is false.");
+    if(flag) System.out.println("flag is true.");
 
-		flag = !flag;
-		System.out.println("flag is false."); // run and tell me
+    flag = true;
+    if(!flag) System.out.println("flag is false.");
 
-	}
-}
+    flag=!flag;
+    System.out.println("flag is "+flag);// run it and tell me !!!
+
+
+  }//main
+}// BoolEx
+
+
+

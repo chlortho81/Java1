@@ -1,37 +1,38 @@
-//Aaron Whittle's Character Example Program
 
+// save this file as CharEx.java
 
 class CharEx {
 
-	public static void main(String[] args) {
-		
-		char ch;
-		//assign ch to capital "A"
+  public static void main(String args[]) {
 
-		ch='A';
+    char ch;
+    // assign ch to capital "A"
 
-		//now display the value
-		System.out.println("the value of ch is " + ch);
+    ch='K';
 
-		//you can also display the value as an int
-		System.out.println("the value of ch is " + (int)ch);
-		// in this way you can do the following 
-		++ch;
+    // now display the value
+    System.out.println("the value of  ch is  " + ch);
 
-		// note what is displayed now
+   // you can also display the value as an int
+    System.out.println("the value of  ch is  " + (int)ch);
+    // in this way you can do the following
+    ++ch;
 
-		System.out.println("the value of ch is " + ch);
+   // note what is displayed now
 
-		System.out.println("the value of ch is " + (int)ch);
+    System.out.println("the value of  ch is  " + ch);
 
-		// what will be the output if I do this
+    System.out.println("the value of  ch is  " + (int)ch);
 
-		--ch;
+   // what will be the output if I do this
 
-		System.out.println("the value of ch is " + ch);
+   --ch;
 
-		System.out.println("the value of ch is " + (int)ch);
+    System.out.println("the value of  ch is  " + ch);
 
-		
-	}
-}
+    System.out.println("the value of  ch is  " + (int)ch);
+
+
+  }//main
+
+}// CharEx
